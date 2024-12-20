@@ -4,6 +4,8 @@ from typing import List, Union
 
 app = FastAPI()
 
+
+
 # Modelo de usuario
 class User(BaseModel):
     id: int
